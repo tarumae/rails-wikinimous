@@ -10,6 +10,8 @@
   </head>
 
   <body>
+    <h1><%= link_to "WikInimous", articles_path %></h1>
+    <span style="float: right"><%= link_to "+ New Article", new_article_path  %></span>
     <%= yield %>
   </body>
 </html>
